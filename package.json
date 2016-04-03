@@ -1,0 +1,34 @@
+{
+  "name": "web-escape",
+  "version": "1.0.0",
+  "description": "HTML用に文字列をエスケープするやつ",
+  "main": "index.js",
+  "scripts": {
+    "test": "babel-node test/test.js"
+  },
+  "author": "honeo",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.6.5",
+    "babel-core": "^6.7.4",
+    "babel-preset-es2015": "^6.6.0",
+    "babel-preset-stage-0": "^6.5.0"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/honeo/web-escape.git"
+  },
+  "keywords": [
+    "web",
+    "html",
+    "escape"
+  ],
+  "bugs": {
+    "url": "https://github.com/honeo/web-escape/issues"
+  },
+  "homepage": "https://github.com/honeo/web-escape#readme"
+}
