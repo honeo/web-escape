@@ -1,6 +1,6 @@
 {
   "name": "web-escape",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "HTML用に文字列をエスケープするやつ",
   "main": "index.js",
   "scripts": {
