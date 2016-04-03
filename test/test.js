@@ -4,6 +4,15 @@ const webEscape = require('../').default;
 
 const caseArray = [];
 
+// validation
+caseArray.push( (arg)=>{
+	try{
+		webEscape(1234567);
+	}catch(e){
+		return true;
+	}
+});
+
 // &
 caseArray.push( (arg)=>{
 	return webEscape('&')==='&amp;';

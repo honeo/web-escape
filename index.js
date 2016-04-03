@@ -17,6 +17,9 @@ const list = {
 }
 
 function webEscape(str){
+	if(typeof str!=='string'){
+		throw new TypeError('invalid argument');
+	}
 	return str.replace(/[<>&"']/g, (arg)=>{
 		return list[arg];
 	});
