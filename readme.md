@@ -13,5 +13,7 @@ $ npm i -S web-escape
 import webEscape from 'web-escape';
 
 webEscape(`& " ' > <`);
-> "&amp; &quot; &#39; &gt; &lt;"
+```
+```js
+"&amp; &quot; &#39; &gt; &lt;"
 ```
