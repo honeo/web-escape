@@ -1,10 +1,10 @@
 {
   "name": "web-escape",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "HTML用に文字列をエスケープするやつ",
   "main": "index.js",
   "scripts": {
-    "test": "babel-node test/test.js"
+    "test": "babel-node test/test.js --presets es2015,stage-0"
   },
   "author": "honeo",
   "license": "MIT",
